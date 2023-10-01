@@ -1,0 +1,63 @@
+.review{
+  height: 85vh;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.review h2{
+    padding: 20px 0;
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+}
+
+.review .reviewData{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review .reviewData .reviewDataCard{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 30px;
+    box-shadow: 2px 2px 5px 1px rgb(114, 112, 112);
+    cursor: pointer;
+}
+
+.review .reviewData .reviewDataCard .reviewImg{
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 5px 1px rgb(149, 146, 146);
+}
+
+.review .reviewData .reviewDataCard h4{
+    color: orangered;
+    font-size: 24px;
+}
+
+.review .reviewData .reviewDataCard p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.review .reviewData .reviewDataCard .socialIcon .fab{
+    border: 1.5px solid grey;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 3px;
+    transition: 0.2s all;
+    font-weight: 600;
+}
+
+.review .reviewData .reviewDataCard .socialIcon .fab:hover{
+    color: orangered;
+    border: 1px solid orangered;
+}

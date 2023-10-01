@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(94, 94, 216);
+  height: 8vh;
+  align-items: center;
+}
+.navbar .logo {
+  width: 100px;
+  margin: 10px 30px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  position: relative;
+  display: flex;
+  left: 40%;
+  gap: 40px;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar i {
+  font-size: 18px;
+}
+
+

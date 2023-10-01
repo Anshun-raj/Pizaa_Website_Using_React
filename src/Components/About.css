@@ -1,0 +1,59 @@
+.about {
+  height: 85vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about .aboutLeft{
+    padding: 40px;
+    width: 50%;
+    text-align: left;
+}
+
+.about .aboutLeft .aboutImg{
+    width: 500px;
+    cursor: pointer;
+}
+
+.about .aboutRight{
+    width: 50%;
+    text-align: left; 
+    padding: 80px;
+}
+
+.about .aboutRight h2{
+    font-size: 42px;
+    padding: 20px 0;
+}
+
+.about .aboutRight h5{
+    font-size: 16px;
+    padding: 10px 0;
+    color:red;
+    font-weight: 600;
+}
+
+.about .aboutRight p{
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.about .aboutRight .btn{
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: orangered;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about .aboutRight .btn:hover{
+    background-color: #000;
+  padding: 12px 30px;
+  color: red;
+}

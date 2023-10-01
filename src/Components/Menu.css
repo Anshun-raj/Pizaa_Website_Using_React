@@ -1,0 +1,65 @@
+.menu {
+  height: 85vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu .memuContent{
+  display: block;
+}
+
+.menu .menuContent h2 {
+  color: orangered;
+  font-size: 40px;
+  padding: 5px 0;
+}
+
+.menu .menuContent h4 {
+  font-size: 24px;
+  color: rgb(59, 59, 59);
+  padding: 5px 0;
+}
+
+.menu .menuData {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.menu .menuData .menuDataCard {
+  width: 300px;
+  height: 340px;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 20px;
+  box-shadow: 2px 2px 5px 1px rgb(114, 112, 112);
+  cursor: pointer;
+}
+
+.menu .menuData .menuDataCard .menuImg {
+  width: 260px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 5px 1px rgb(149, 146, 146);
+}
+
+.menu .menuData .menuDataCard h4 {
+  font-size: 24px;
+  color: orangered;
+  padding: 5px 0;
+}
+
+.menu .menuData .menuDataCard h5 {
+  font-size: 24px;
+  color: orangered;
+  padding: 5px 0;
+}
+
+.menu .menuData .menuDataCard .rating {
+  padding: 5px 0;
+  color: rgb(59, 59, 59);
+}

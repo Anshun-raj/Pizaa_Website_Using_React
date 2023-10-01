@@ -1,0 +1,16 @@
+.footer {
+  height: 7vh;
+  background-color: rgb(94, 94, 216);
+  text-align: center;
+}
+
+.footer h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.footer span {
+  color: rgb(160, 26, 26);
+}
