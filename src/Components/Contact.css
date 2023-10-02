@@ -5,7 +5,7 @@
 }
 
 .contact h2 {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   color: orangered;
   font-size: 40px;
@@ -13,7 +13,7 @@
 
 form {
   width: 450px;
-  height: 400px;
+  height: 480px;
   margin: auto;
   border: 2px solid grey;
   border-radius: 5px;
@@ -44,6 +44,7 @@ form .btn1 {
   font-weight: bold;
   font-size: 16px;
   transition: 0.5s all;
+  margin: 10px 0;
 }
 
 .contact .btn1:hover {
